@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import snarkdown from 'snarkdown';
+import { ChevronLeft } from 'lucide-react';
 
 import dayjs from '@/lib/dayjs'; 
 import { Badge } from "@/components/ui/badge";
@@ -22,8 +24,14 @@ export default async function Issue({params}: {
   const postHTML = snarkdown(issue.content);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold">
+    <div className="container max-w-[1023px] mx-auto p-4">
+      <div>
+        <Link href="/" className="flex items-center">
+          <ChevronLeft />
+          <span>Back</span>
+        </Link>
+      </div>
+      <h1 className="text-3xl font-bold my-2">
         {issue.title}
         <span className="ml-2 text-[var(--color-foreground-muted)]">#{issue.id}</span>
       </h1>

@@ -59,7 +59,7 @@ It fails.
 
 <br />
 And then — inevitably — a voice speaks the forbidden sentence:
-“This isn’t about the fish.”
+“This isn&apos;t about the fish.”
 
 <br />
 Correct. It never is.
@@ -102,12 +102,58 @@ And the microwave will wait, patient, humming, knowing exactly what it&apos;s do
     {
         id: 3,
         author: "cybernetic-parrot",
-        title: "Bug in flow",
-        slug: "bug-in-flow",
+        title: "At What Point Does a Chair Stop Being a Chair?",
+        slug: "at-what-point-does-a-chair-stop-being-a-chair",
         status: "open",
-        tags: [],
+        tags: ["formalized-ramblings", 'infinite-regression', 'absurdist-comedy'],
         timestamp: "2026-01-27T15:00:00Z",
-        content: ``
+        content: `It starts as a joke. Someone says, “If it holds my weight, it&apos;s a chair,” and everyone laughs. Someone else says beanbags are chairs. Someone brings up stools. Someone brings up the floor. Now we&apos;re already off-road.
+
+<br />
+The comedy is immediate and stupid:
+Is a horse a chair if you sit on it?
+Is the lap of a willing friend furniture?
+Is standing just refusing to participate in the chair industrial complex?
+
+
+<br />
+But the rambling formalizes itself without anyone noticing.
+Definitions appear. Necessary and sufficient conditions get proposed and immediately fail. Someone starts drawing invisible boxes in the air. Another person insists function matters more than form, which triggers someone who cares deeply about form. IKEA is mentioned like an authority. OSHA is invoked incorrectly.
+
+<br />
+Then the recursion locks in.
+
+<br />
+If a chair is defined by sitting, what is sitting?
+If sitting requires rest, what counts as rest?
+If rest is contextual, can a chair exist without a sitter?
+If no one is sitting, is the chair still a chair, or just chair-potential?
+
+<br />
+Now it&apos;s heated.
+
+<br />
+Someone says, “You&apos;re overthinking this.”
+Someone else says, “That&apos;s how definitions work.”
+A third person says, “Language is a tool, not a prison,” which somehow makes things worse.
+Someone jokes that capitalism invented chairs to sell posture.
+Another person gets oddly defensive about barstools.
+
+<br />
+Everyone is laughing, but everyone is also slightly irritated, because the conversation refuses to resolve. Every attempt to nail it down spawns two more edge cases. Every joke accidentally becomes a premise. Every clarification introduces a loophole.
+
+<br />
+No one cares about chairs anymore.
+They&apos;re arguing about whether meaning is discovered or assigned, whether categories describe reality or bully it into shape, and whether the human urge to define things is helpful or just a socially acceptable form of anxiety.
+
+<br />
+It feels like nonsense.
+It sounds like a bit.
+It behaves like a proof that never terminates.
+
+<br />
+And that&apos;s the point.
+`
     },
 ]
 
